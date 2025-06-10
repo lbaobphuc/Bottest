@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Bot hoạt động rồi nè!")
+    return "Bot hoạt động rồi nè!"
 
 @app.route(f"/{TOKEN}", methods=["POST"])
 def webhook():
